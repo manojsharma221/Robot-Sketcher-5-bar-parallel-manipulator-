@@ -1,4 +1,4 @@
-# Robot-Sketcher-5-bar-parallel-manipulator-
+# Robot-Sketcher-5-bar-parallel-manipulator-(feel free to use and contribute)
 An amazing robot sketcher based on the 5 bar parallel manipulator mechanism
 Video: https://www.youtube.com/watch?v=lMgfEUtLZQk
 Setup: https://media.licdn.com/dms/image/C5122AQF-zxRBTb_B7w/feedshare-shrink_8192/0?e=1560384000&v=beta&t=cHfHhS5IaVnR7p2J9EBDRgsTshWLVX9Vb7uatsUTYjQ
