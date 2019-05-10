@@ -1,40 +1,45 @@
-# Robot-Sketcher-5-bar-parallel-manipulator-(feel free to use and contribute)
+# ROBOT SKETCHER
+
 An amazing robot sketcher based on the 5 bar parallel manipulator mechanism
-Video: https://www.youtube.com/watch?v=lMgfEUtLZQk
-Setup: https://media.licdn.com/dms/image/C5122AQF-zxRBTb_B7w/feedshare-shrink_8192/0?e=1560384000&v=beta&t=cHfHhS5IaVnR7p2J9EBDRgsTshWLVX9Vb7uatsUTYjQ
 
-To understand the kinematics of the mechanism visit: https://www.academia.edu/10259240/Kinematic_Analysis_of_Five_Bar_Mechanism_in_Industrial_Robotics
+### Demo
+- Watch on ![Youtube](https://www.youtube.com/watch?v=lMgfEUtLZQk)
 
-* The "robot_main.py" runs on the computer and "robot_arduino.ino" is for the arduino
+### Pre-reqsuisite knowledge
+- ![Setup](https://media.licdn.com/dms/image/C5122AQF-zxRBTb_B7w/feedshare-shrink_8192/0?e=1560384000&v=beta&t=cHfHhS5IaVnR7p2J9EBDRgsTshWLVX9Vb7uatsUTYjQ)
 
-HARDWARE REQUIRMENTS:
+- To understand the kinematics of the mechanism visit: [Here](https://www.academia.edu/10259240/Kinematic_Analysis_of_Five_Bar_Mechanism_in_Industrial_Robotics)
 
-1.Arduino Uno
+- The "robot_main.py" runs on the computer and "robot_arduino.ino" is for the arduino
 
-2.CNC shield (like the one at :https://www.electronicscomp.com/cnc-shield-v3-3d-printer-a4988-expansion-board?gclid=EAIaIQobChMIlLCC3vCO4gIVlQsrCh2Urw_xEAQYAiABEgL_j_D_BwE)
+### HARDWARE REQUIRMENTS
 
-3.Two Stepper motor
+1. Arduino Uno
 
-4.Two stepper motor drivers(Model: A4988)
+2. CNC shield (like the one at :https://www.electronicscomp.com/cnc-shield-v3-3d-printer-a4988-expansion-board?gclid=EAIaIQobChMIlLCC3vCO4gIVlQsrCh2Urw_xEAQYAiABEgL_j_D_BwE)
 
-5.12V adapter
+3. Two Stepper motor
 
-6.Plywood/Aluminium or whatever you use to make the links
+4. Two stepper motor drivers(Model: A4988)
 
-7.Bearings(optional;the first version if this robot had links joined using nut and bot and it worked pretty fine)
+5. 12V adapter
 
-SOFTWARE REQUIRMENTS:
+6. Plywood/Aluminium or whatever you use to make the links
 
-1.Python 3.6(and for library requirments see "robot_main.py" file)
+7. Bearings(optional;the first version if this robot had links joined using nut and bot and it worked pretty fine)
 
-2.Arduino IDE
+### SOFTWARE REQUIRMENTS
 
-3.Inkscape for making vector image
+1. Python 3.6(and for library requirments see "robot_main.py" file)
+
+2. Arduino IDE
+
+3. Inkscape for making vector image
 
 4. For vector to g-code visit: jscut.org
 
 
-Note: while making vector image using inkscape make all dimentions in mm also make sure the drawing is on the positive x and y axis.
+**Note:** while making vector image using inkscape make all dimentions in mm also make sure the drawing is on the positive x and y axis.
       because the python program neglects negative coordinates.The image can be shifted to the negative axes of the robot's workspace 
       by assigning shifts in mm to "xerr" and "yerr" variable in the main python program.
 
