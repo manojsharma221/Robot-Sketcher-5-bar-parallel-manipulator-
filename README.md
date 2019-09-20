@@ -7,7 +7,8 @@ An amazing robot sketcher based on the 5 bar parallel manipulator mechanism(SCAR
 * Developed an algorithm to keep track of the error in the movement of the links occuring due to resolution limitation of the stepper motors and the motor drivers.The algorithm also tries to correct the error with each input coordinate without the use of close loop control(means not encoder senssors necessary). The prevent the accumulation of error and keeps the error in the movement of the end effector minimum. <br />
 
 ### Demo
-- Watch on ![Youtube](https://www.youtube.com/watch?v=lMgfEUtLZQk)
+- Watch on Youtube
+https://www.youtube.com/watch?v=lMgfEUtLZQk
 
 ### Pre-reqsuisite knowledge
 - ![Setup](https://github.com/manojsharma221/Robot-Sketcher-5-bar-parallel-manipulator-/blob/master/setup_robot.jpg)
