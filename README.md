@@ -1,9 +1,10 @@
 # Robot-Sketcher-5-bar-parallel-manipulator-(feel free to use and contribute)  <br />
 An amazing robot sketcher based on the 5 bar parallel manipulator mechanism(SCARA) <br />
+<br />
 OVERVIEW OF THE PROJECT <br />
-* Used python programming to solve the inverse kinematics equation of the mechanism, to do processing of all the co-ordinates of a given image and used atmega328p microcontroller with A4988 drivers to control the stepper motors which control the links of the robot. <br />
+* Used python programming to solve the inverse kinematics equation of the mechanism, to do processing of all the co-ordinates of a given image and used atmega328p microcontroller with A4988 drivers to control the stepper motors which control the links/arms of the robot. <br />
 * Developed an algorithm to make the robot able to use gcode in python and fill the missing coordinates to maintain desired level of smoothness of lines/curves drawn. <br />
-* Developed an algorithm to keep track of the error in the movement of the links occuring to due to resolution limitation of the stepper motors and the motor drivers.The algorithm also tries to correct the error with each input coordinate without the use of close loop control. The prevent the accumulation of error and keeps the error in the movement of the end effector minimum. <br />
+* Developed an algorithm to keep track of the error in the movement of the links occuring due to resolution limitation of the stepper motors and the motor drivers.The algorithm also tries to correct the error with each input coordinate without the use of close loop control(means not encoder senssors necessary). The prevent the accumulation of error and keeps the error in the movement of the end effector minimum. <br />
 
 Video: https://www.youtube.com/watch?v=lMgfEUtLZQk <br />
 
