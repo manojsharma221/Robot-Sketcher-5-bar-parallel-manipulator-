@@ -1,13 +1,19 @@
-# Robot-Sketcher-5-bar-parallel-manipulator-(feel free to use and contribute)
-An amazing robot sketcher based on the 5 bar parallel manipulator mechanism
-Video: https://www.youtube.com/watch?v=lMgfEUtLZQk
-Setup: https://media.licdn.com/dms/image/C5122AQF-zxRBTb_B7w/feedshare-shrink_8192/0?e=1560384000&v=beta&t=cHfHhS5IaVnR7p2J9EBDRgsTshWLVX9Vb7uatsUTYjQ
+# Robot-Sketcher-5-bar-parallel-manipulator-(feel free to use and contribute)  <br />
+An amazing robot sketcher based on the 5 bar parallel manipulator mechanism(SCARA) <br />
+OVERVIEW OF THE PROJECT <br />
+* Used python programming to solve the inverse kinematics equation of the mechanism, to do processing of all the co-ordinates of a given image and used atmega328p microcontroller with A4988 drivers to control the stepper motors which control the links of the robot. <br />
+* Developed an algorithm to make the robot able to use gcode in python and fill the missing coordinates to maintain desired level of smoothness of lines/curves drawn. <br />
+* Developed an algorithm to keep track of the error in the movement of the links occuring to due to resolution limitation of the stepper motors and the motor drivers.The algorithm also tries to correct the error with each input coordinate without the use of close loop control. The prevent the accumulation of error and keeps the error in the movement of the end effector minimum. <br />
 
-To understand the kinematics of the mechanism visit: https://www.academia.edu/10259240/Kinematic_Analysis_of_Five_Bar_Mechanism_in_Industrial_Robotics
+Video: https://www.youtube.com/watch?v=lMgfEUtLZQk <br />
 
-* The "robot_main.py" runs on the computer and "robot_arduino.ino" is for the arduino
+Setup: https://media.licdn.com/dms/image/C5122AQF-zxRBTb_B7w/feedshare-shrink_8192/0?e=1560384000&v=beta&t=cHfHhS5IaVnR7p2J9EBDRgsTshWLVX9Vb7uatsUTYjQ <br />
 
-HARDWARE REQUIRMENTS:
+To understand the kinematics of the mechanism visit: https://www.academia.edu/10259240/Kinematic_Analysis_of_Five_Bar_Mechanism_in_Industrial_Robotics <br />
+
+* The "robot_main.py" runs on the computer and "robot_arduino.ino" is for the arduino <br />
+
+HARDWARE REQUIRMENTS: <br />
 
 1.Arduino Uno
 
@@ -31,7 +37,7 @@ SOFTWARE REQUIRMENTS:
 
 3.Inkscape for making vector image
 
-4. For vector to g-code visit: jscut.org
+4. For vector to g-code visit: jscut.org <br />
 
 
 Note: while making vector image using inkscape make all dimentions in mm also make sure the drawing is on the positive x and y axis.
