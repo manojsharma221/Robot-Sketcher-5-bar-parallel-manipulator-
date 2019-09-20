@@ -8,7 +8,7 @@ OVERVIEW OF THE PROJECT <br />
 
 Video: https://www.youtube.com/watch?v=lMgfEUtLZQk <br />
 
-Setup: https://media.licdn.com/dms/image/C5122AQF-zxRBTb_B7w/feedshare-shrink_8192/0?e=1560384000&v=beta&t=cHfHhS5IaVnR7p2J9EBDRgsTshWLVX9Vb7uatsUTYjQ <br />
+Setup:View setup_robot.jpg<br />
 
 To understand the kinematics of the mechanism visit: https://www.academia.edu/10259240/Kinematic_Analysis_of_Five_Bar_Mechanism_in_Industrial_Robotics <br />
 
